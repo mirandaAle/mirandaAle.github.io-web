@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+main{
+    margin: 20 auto;
+    padding: 2%;
+}
+.contRegistrarse{
+    background: linear-gradient(60deg,transparent, DeepSkyBlue);
+}
+ p{
+     color:Green;
+    }
+#btnRegistrarse{
+   background: linear-gradient(50deg, green, transparent);
+}
+#btnIniciar{
+    background: linear-gradient(50deg, green, transparent);
+}
+.form-control{
+    background: linear-gradient(1deg, white, transparent);
+
+}
+.fondo{
+    /* background: linear-gradient(60deg ,PowderBlue,DarkGray); */
+
+    background-image:url("../img/rio.jpg ");
+    height: 50vh;
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size: cover;
+
+
+}
+@media (max-width: 768px) {
+    .conteiner{
+        width: 100%;
+    }
+
+    #tilulo {
+        font-size: 3vh;
+        }
+    p{
+     font-size: 3vh;
+    }
+    }
+/* ---------    registrarse  ------------- */
